@@ -1,0 +1,29 @@
+#buttonDivAnimation {
+
+    background-color: burlywood;
+    border: 2px solid rgb(202, 167, 122);
+    padding: 20px;
+    margin-left: 20px;
+    transition: 0.3s all linear;
+}
+
+#buttonDivAnimation:hover {
+    background-color: rgb(235, 155, 51);
+    border: 2px dashed rgb(136, 116, 89);
+    font-style: italic;
+}
+
+#squar {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fff;
+
+}
