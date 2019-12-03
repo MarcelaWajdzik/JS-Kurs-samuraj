@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 10px double #000000;
+
+}
+
+.container-div {
+    margin-top: 2vh;
+    border: 2px solid grey;
+
+}
+
+.square {
+    display: inline-block;
+    text-align: center;
+    line-height: 5vh;
+    width: 5vh;
+    height: 5vh;
+    margin: 5px;
+    background-color: #000;
+    color: #ffffff;
+
+}
+
+.circle {
+    display: inline-block;
+    text-align: center;
+    line-height: 5vh;
+    width: 5vh;
+    height: 5vh;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #000000;
+
+}
