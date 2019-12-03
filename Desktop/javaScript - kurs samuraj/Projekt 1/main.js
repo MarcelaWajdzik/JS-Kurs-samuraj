@@ -14,3 +14,21 @@ const addElement = () => {
 }
 
 btnAdd.addEventListener('click', addElement)
+/* add new li */
+const newBtn = document.querySelector('.addLi');
+let newContentLi = 1;
+const addLi = () => {
+    const containerUl = document.querySelector('ul')
+    let newLi = document.createElement('li');
+    newLi.innerText = newContentLi;
+    containerUl.appendChild(newLi)
+
+    if (newLi.innerText % 3 == 0) {
+        newLi.style.fontSize = "30px";
+        newLi.style.fontWeight = 'bold';
+        newLi.style.color = 'blue';
+    }
+    newContentLi += 2;
+}
+
+newBtn.addEventListener('click', addLi)

@@ -4,22 +4,31 @@
     box-sizing: border-box;
 }
 
+.container {
+    margin: auto;
+    width: 80vw;
+}
+
 button {
+    display: block;
+    margin: 0 auto;
     text-transform: uppercase;
     font-size: 1.6em;
-    margin-top: 10vh;
-    margin-left: 10vh;
+    margin: auto;
     padding: 15px 20px;
     background-color: transparent;
-    border: 10px double #000000;
-
-}
-
-.container-div {
+    border: 5px double #000000;
+    margin-bottom: 2vh;
     margin-top: 2vh;
-    border: 2px solid grey;
 
 }
+
+button:hover {
+    background-color: #000;
+    color: #ffffff;
+    border: #ffffff 5px double;
+}
+
 
 .square {
     display: inline-block;
@@ -45,4 +54,9 @@ button {
     background-color: #ffffff;
     color: #000000;
 
+}
+
+ul {
+    text-align: center;
+    list-style: none;
 }
