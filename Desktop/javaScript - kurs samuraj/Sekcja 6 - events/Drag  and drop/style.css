@@ -1,0 +1,17 @@
+.square {
+    position: fixed;
+    cursor: pointer;
+    background-color: #000;
+    height: 100px;
+    width: 100px;
+}
+
+.squareGreen {
+    background-color: greenyellow;
+    position: fixed;
+    left: 150px;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+
+}
